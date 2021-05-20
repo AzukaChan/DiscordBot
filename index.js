@@ -8,7 +8,7 @@ const bot = new Discord.Client({
 });
 
 mongoose.connect(
-    "mongodb+srv://webmanager:MONGO-DB-LINK", {
+    "mongodb+srv://webmanager:IwMeuNV9j5wnQAFK@cluster0-uyxge.gcp.mongodb.net/azukabotdb?retryWrites=true&w=majority", {
         useUnifiedTopology: true,
         useNewUrlParser: true
     }
