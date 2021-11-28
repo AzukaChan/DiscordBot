@@ -13,7 +13,9 @@ mongoose.connect(
         useNewUrlParser: true
     }
 );
-//Load Commands Fodler
+
+
+//Load Commands Folder
 const fs = require("fs");
 bot.commands = new Discord.Collection();
 fs.readdir("./commands/", (err, files) => {
@@ -59,10 +61,16 @@ bot.on("message", async message => {
         message.react("561420574996561921").catch(err => console.log(err));
     }
 
-    //AzukaHype Reaction
+    //Ask Azuka Reaction
     if (messageCheck.includes("ask azuka")) {
-        message.channel.send("My ears are burning!～").catch(err => console.log(err));
+        message.channel.send("You summoned me? :3").catch(err => console.log(err));
     }
+	
+    //Raffle Reaction
+    if (messageCheck.includes("raffle")) {
+        message.react("🎊").catch(err => console.log(err));
+    }
+	
 });
 
 bot.login(botconfig.token);
