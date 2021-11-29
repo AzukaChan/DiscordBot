@@ -21,7 +21,7 @@ const embed = new Discord.MessageEmbed()
 	.setTimestamp()
 	.setFooter('FATE Found', '')
 	.setColor("#00FF00") // Color in HEX
-	.setThumbnail("https://i.ibb.co/HpPhwCF/Untitled.png"); //Thumbnail
+	.setThumbnail("http://bot.azukachan.com/icons/foxylady.png"); //Thumbnail
 	message.channel.send(embed);
 };
 

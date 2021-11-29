@@ -21,7 +21,7 @@ const embed = new Discord.MessageEmbed()
 	.setTimestamp()
 	.setFooter('FATE Found', '')
 	.setColor("#00FF00") // Color in HEX
-	.setThumbnail("https://ffxiv.gamerescape.com/w/images/thumb/9/91/Archaeotania.png/300px-Archaeotania.png"); //Thumbnail
+	.setThumbnail("http://bot.azukachan.com/icons/archaeotania.png"); //Thumbnail
 	message.channel.send(embed);
 };
 

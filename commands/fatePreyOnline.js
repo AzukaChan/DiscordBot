@@ -21,7 +21,7 @@ const embed = new Discord.MessageEmbed()
 	.setTimestamp()
 	.setFooter('FATE Found', '')
 	.setColor("#00FF00") // Color in HEX
-	.setThumbnail("https://ffxiv.consolegameswiki.com/mediawiki/images/0/0e/Sapria_Enemy.png"); //Thumbnail
+	.setThumbnail("http://bot.azukachan.com/icons/preyonline.png"); //Thumbnail
 	message.channel.send(embed);
 };
 
