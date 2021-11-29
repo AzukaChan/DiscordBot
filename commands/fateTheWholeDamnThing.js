@@ -18,6 +18,8 @@ const embed = new Discord.MessageEmbed()
 	.addField("**Rewards: **", `★ Archaeotania's Horn ★ \n Used to buy the frog suit.`)
 	.addField("**Server: **", (args[0]) )
 
+	.setTimestamp()
+	.setFooter('FATE Found', '')
 	.setColor("#00FF00") // Color in HEX
 	.setThumbnail("https://ffxiv.gamerescape.com/w/images/thumb/9/91/Archaeotania.png/300px-Archaeotania.png"); //Thumbnail
 	message.channel.send(embed);

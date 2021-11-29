@@ -18,6 +18,8 @@ const embed = new Discord.MessageEmbed()
 	.addField("**Rewards: **", `★ Sassho-seki Fragment ★ \n Used to buy Tamamo Headband, Fox Kit and housing item`)
 	.addField("**Server: **", (args[0]) )
 
+	.setTimestamp()
+	.setFooter('FATE Found', '')
 	.setColor("#00FF00") // Color in HEX
 	.setThumbnail("https://i.ibb.co/HpPhwCF/Untitled.png"); //Thumbnail
 	message.channel.send(embed);
