@@ -18,6 +18,8 @@ const embed = new Discord.MessageEmbed()
 	.addField("**Rewards: **", `★ Proto Ultima Exoplating ★ \n Used to buy Ultima Horns from Bertana in Idyllshire`)
 	.addField("**Server: **", (args[0]) )
 
+	.setTimestamp()
+	.setFooter('FATE Found', '')
 	.setColor("#00FF00") // Color in HEX
 	.setThumbnail("https://ffxiv.consolegameswiki.com/mediawiki/images/0/0e/Sapria_Enemy.png"); //Thumbnail
 	message.channel.send(embed);

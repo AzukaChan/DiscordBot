@@ -1,7 +1,11 @@
+//Run Module and Delete Command
 const Discord = require("discord.js");
-
 module.exports.run = async (bot, message, args) => {
-  const embed = new Discord.MessageEmbed()
+message.delete({
+	timeout: 0000
+});
+
+const embed = new Discord.MessageEmbed()
 
     //General Commands
     .addField("**!bothelp**", `Displays command syntax`)

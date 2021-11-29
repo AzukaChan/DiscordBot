@@ -18,6 +18,8 @@ const embed = new Discord.MessageEmbed()
 	.addField("**Rewards: **", `★ Ixion Horn ★ \n Used to buy Ixion Mount, Barding and Housing Items.`)
 	.addField("**Server: **", (args[0]) )
 
+	.setTimestamp()
+	.setFooter('FATE Found', '')
 	.setColor("#00FF00") // Color in HEX
 	.setThumbnail("https://ffxiv.consolegameswiki.com/mediawiki/images/b/b5/Ixion_Image.png"); //Thumbnail
 	message.channel.send(embed);

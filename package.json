@@ -1,33 +1,17 @@
 {
-  "name": "DiscordBot",
-  "version": "2.0.0",
+  "name": "DiscordBotNew",
+  "version": "1.0.0",
   "description": "A basic DiscordBot written in Javascript.",
   "main": "index.js",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "axios": "^0.24.0",
-    "cheerio": "^1.0.0-rc.10",
-    "discord.js": "^12.2.0",
-    "dotenv": "^8.2.0",
-    "moment": "^2.26.0",
-    "mongoose": "^6.0.12",
-    "node-fetch": "^2.6.5",
-    "pretty-ms": "^6.0.1",
-    "puppeteer": "^2.1.1",
-    "xmlhttprequest": "^1.8.0"
-  },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AzukaChan/DiscordBot.git"
-  },
-  "bugs": {
-    "url": "https://github.com/AzukaChan/DiscordBot/issues"
-  },
-  "homepage": "https://github.com/AzukaChan/DiscordBot#readme"
+  "license": "ISC"
 }

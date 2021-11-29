@@ -18,6 +18,8 @@ const embed = new Discord.MessageEmbed()
 	.addField("**Rewards: **", `★ Formidable Cog ★ \n Used to buy Ironfrog Ambler Mount and Minion`)
 	.addField("**Server: **", (args[0]) )
 
+	.setTimestamp()
+	.setFooter('FATE Found', '')
 	.setColor("#00FF00") // Color in HEX
 	.setThumbnail("https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/a/aa/Formidable_pic_2.png/250px-Formidable_pic_2.png"); //Thumbnail
 	message.channel.send(embed);

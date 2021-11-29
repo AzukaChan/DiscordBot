@@ -1,19 +1,24 @@
 //Dependencies
 const botconfig = require("./botconfig.json");
 const Discord = require("discord.js");
-const mongoose = require("mongoose");
+const mysql = require('mysql');
 
 const bot = new Discord.Client({
     disableEveryone: true
 });
 
-mongoose.connect(
-    "mongodb+srv://webmanager:IwMeuNV9j5wnQAFK@cluster0-uyxge.gcp.mongodb.net/azukabotdb?retryWrites=true&w=majority", {
-        useUnifiedTopology: true,
-        useNewUrlParser: true
-    }
-);
 
+// MySQL Connection
+var con = mysql.createConnection({
+  host: "45.148.121.53",
+  user: "azukach1_home",
+  password: "Otakusdream1."
+});
+
+con.connect(function(err) {
+  if (err) throw err;
+  console.log("MySQL Connected!");
+});
 
 //Load Commands Folder
 const fs = require("fs");
