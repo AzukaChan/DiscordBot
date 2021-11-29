@@ -29,7 +29,7 @@ const embed = new Discord.MessageEmbed()
 	.setTimestamp()
 	.setFooter('The Hunt', '')
 	.setColor("#00FF00") // Color in HEX
-	.setThumbnail("https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/7/7a/Supay_Daylight.jpg/195px-Supay_Daylight.jpg"); //Thumbnail
+	.setThumbnail("http://bot.azukachan.com/icons/supay.jpg"); //Thumbnail
 	message.channel.send(embed);
 };
 

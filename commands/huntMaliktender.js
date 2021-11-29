@@ -29,7 +29,7 @@ const embed = new Discord.MessageEmbed()
 	.setTimestamp()
 	.setFooter('The Hunt', '')
 	.setColor("#00FF00") // Color in HEX
-	.setThumbnail("https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/f/fe/Maliktender_pic_1.png/195px-Maliktender_pic_1.png"); //Thumbnail
+	.setThumbnail("http://bot.azukachan.com/icons/maliktender.png"); //Thumbnail
 	message.channel.send(embed);
 };
 

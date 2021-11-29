@@ -29,7 +29,7 @@ const embed = new Discord.MessageEmbed()
 	.setTimestamp()
 	.setFooter('The Hunt', '')
 	.setColor("#00FF00") // Color in HEX
-	.setThumbnail("https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/1/19/Nuckelavee_pic_2.png/200px-Nuckelavee_pic_2.png"); //Thumbnail
+	.setThumbnail("http://bot.azukachan.com/icons/nuckelavee.png"); //Thumbnail
 	message.channel.send(embed);
 };
 

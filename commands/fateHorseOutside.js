@@ -21,7 +21,7 @@ const embed = new Discord.MessageEmbed()
 	.setTimestamp()
 	.setFooter('FATE Found', '')
 	.setColor("#00FF00") // Color in HEX
-	.setThumbnail("https://ffxiv.consolegameswiki.com/mediawiki/images/b/b5/Ixion_Image.png"); //Thumbnail
+	.setThumbnail("http://bot.azukachan.com/icons/ixion.png"); //Thumbnail
 	message.channel.send(embed);
 };
 

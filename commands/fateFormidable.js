@@ -21,7 +21,7 @@ const embed = new Discord.MessageEmbed()
 	.setTimestamp()
 	.setFooter('FATE Found', '')
 	.setColor("#00FF00") // Color in HEX
-	.setThumbnail("https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/a/aa/Formidable_pic_2.png/250px-Formidable_pic_2.png"); //Thumbnail
+	.setThumbnail("http://bot.azukachan.com/icons/formidable.png"); //Thumbnail
 	message.channel.send(embed);
 };
 

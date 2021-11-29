@@ -29,7 +29,7 @@ const embed = new Discord.MessageEmbed()
 	.setTimestamp()
 	.setFooter('The Hunt', '')
 	.setColor("#00FF00") // Color in HEX
-	.setThumbnail("https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/0/05/Funa_Yurei.jpg/200px-Funa_Yurei.jpg"); //Thumbnail
+	.setThumbnail("http://bot.azukachan.com/icons/funayurei.jpg"); //Thumbnail
 	message.channel.send(embed);
 };
 
